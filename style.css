@@ -1,5 +1,5 @@
 html {
-background: url('images/background.png'), #000;
+background: url('background.png'), #000;
 background-repeat: repeat;
 }
 
@@ -80,7 +80,7 @@ padding-left: 0;
 main .form-check-input { display: none; }
 
 main .form-check-label:before {
-background-image: url('images/checkboxes.png');
+background-image: url('checkboxes.png');
 background-position: top left;
 background-repeat: no-repeat;
 content: '';
