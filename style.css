@@ -1,0 +1,103 @@
+html {
+  background: url('https://i.imgur.com/Ldw9SG8.png'), #000;
+  background-repeat: repeat;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 75);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-family: 'EB Garamond', serif;
+  font-style: normal;
+  font-size: 13px;
+  font-variant-ligatures: no-common-ligatures;
+  font-weight: 600;
+  height: 100%;
+  letter-spacing: 0.015rem;
+  line-height: normal;
+  position: relative;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a:link,
+a:visited {
+  color: #969696;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: #fff;
+  text-shadow: 0px 0px 13px #47ccd0, 0px 0px 13px #47ccd0;
+}
+
+.clear-fix:before,
+.clear-fix:after {
+  content: "";
+  display: table;
+}
+
+.clear-fix:after { clear: both; }
+
+/* Header */
+nav {
+  background-color: #000;
+  border-bottom: 1px solid #303030;
+}
+
+nav h1 { font-size: 1.8rem; }
+
+/* Main */
+main { font-size: 1.075rem; }
+
+main .areas {
+  background-color: rgba(0, 0, 0, 50);
+  border: 1px solid #fff;
+  position: relative;
+}
+
+main .areas:before {
+  border-bottom: 30px solid #fff;
+  border-left: 30px solid transparent;
+  content: '';
+  display: inline-block;
+  height: 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+}
+
+main .form-check {
+  margin-bottom: 0.5rem;
+  margin-left: 0.75rem;
+  padding-left: 0;
+}
+
+main .form-check-input { display: none; }
+
+main .form-check-label:before {
+  background-image: url('https://i.imgur.com/3aHiB15.png');
+  background-position: top left;
+  background-repeat: no-repeat;
+  content: '';
+  display: inline-block;
+  height: 18px;
+  margin-right: 7px;
+  position: relative;
+  top: 3px;
+  width: 18px;
+}
+
+main .form-check-input:checked + .form-check-label:before { background-position: bottom right; }
+
+/* Footer */
+footer {
+  background-color: #000;
+  border-top: 1px solid #303030;
+  font-size: 0.98rem;
+  text-align: center;
+}
