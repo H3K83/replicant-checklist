@@ -1,5 +1,6 @@
 html {
 background: url('background.png'), #000;
+background-attachment: fixed;
 background-repeat: repeat;
 }
 
