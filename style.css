@@ -1,6 +1,6 @@
 /* Global */
 body {
-background: url("https://i.imgur.com/PgCW8dj.png"), #000000;
+background: url("background.png"), #000000;
 background-attachment: fixed;
 background-repeat: repeat;
 color: #FFFFFF;
@@ -154,7 +154,7 @@ display: none;
 }
 
 main .form-check-label:before {
-background-image: url("https://i.imgur.com/7HOj6Wc.png");
+background-image: url("checkboxes.png");
 background-position: top left;
 background-repeat: no-repeat;
 content: '';
